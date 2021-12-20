@@ -8,7 +8,7 @@ export const productDataApi = createApi({
  // The base query to request data.
  // RTK Query ships with fetchBaseQuery, which is a lightweight fetch wrapper that automatically handles request headers and response parsing in a manner similar to common libraries like axios.
  baseQuery: fetchBaseQuery({
-  baseUrl: 'http://localhost:6030/',
+  baseUrl: 'https://powerful-everglades-15401.herokuapp.com/',
  }),
 
  // The set of operations that we want to perform against the server.
