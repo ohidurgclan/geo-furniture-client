@@ -7,10 +7,10 @@ const NewBanner = () => {
     return (
         <Container>
             <Grid container spacing={3}>
-                <Grid item xs={6}>
+                <Grid data-aos="fade-right" item xs={6}>
                     <img height="auto" width="100%" src={img1} alt="" />
                 </Grid>
-                <Grid item xs={6}>
+                <Grid data-aos="fade-left" item xs={6}>
                     <img height="auto" width="100%" src={img2} alt="" />
                 </Grid>
             </Grid>

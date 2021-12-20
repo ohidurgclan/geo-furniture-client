@@ -8,13 +8,13 @@ const OfferBanner = () => {
     return (
         <Container>
             <Grid container spacing={2}>
-                <Grid item xs={4}>
+                <Grid data-aos="fade-right" item xs={4}>
                     <img height="auto" width="100%" src={img1} alt="" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid data-aos="fade-down" item xs={4}>
                     <img height="auto" width="100%" src={img2} alt="" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid data-aos="fade-left" item xs={4}>
                     <img height="auto" width="100%" src={img3} alt="" />
                 </Grid>
             </Grid>

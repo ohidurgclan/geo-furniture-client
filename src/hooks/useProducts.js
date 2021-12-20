@@ -29,16 +29,6 @@ export const productDataApi = createApi({
    }
   }),
 
-  getPostByLimit: builder.query({
-   query: (num) => {
-    console.log("Limit Number:", num)
-    return {
-     url: `furnitures?_limit=${num}`,
-     method: 'GET'
-    }
-   }
-  }),
-
   deletePost: builder.mutation({
    query: (id) => {
     console.log("Delete ID:", id)
@@ -83,4 +73,4 @@ export const productDataApi = createApi({
 })
 
 // Export hooks for usage in functional components, which are auto-generated based on the defined endpoints
-export const { useGetAllPostQuery, useGetPostByIdQuery, useGetPostByLimitQuery, useDeletePostMutation, useCreatePostMutation, useUpdatePostMutation } = productDataApi
+export const { useGetAllPostQuery, useGetPostByIdQuery, useDeletePostMutation, useCreatePostMutation, useUpdatePostMutation } = productDataApi

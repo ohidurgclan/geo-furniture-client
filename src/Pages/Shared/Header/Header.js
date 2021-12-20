@@ -114,7 +114,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     // const { user, logOut } = useAuth();
 return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{ boxShadow: 'none' , backgroundColor: '#fff'}} position="static">
+      <AppBar sx={{ boxShadow: 'none' , backgroundColor: '#f9f9f9'}} position="static">
         <Toolbar>
           <Typography variant="h5" gutterBottom component="div" sx={{ fontWeight: '600', color: 'var(--bg-black-100)', mr: 5}}>
             Geo Furniture
