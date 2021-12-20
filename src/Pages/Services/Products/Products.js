@@ -5,7 +5,6 @@ const Products = () => {
     return (
       <>
         <Header />
-        <h2> i am products</h2>  
       </>
     );
 };

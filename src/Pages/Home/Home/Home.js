@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductsData from '../../ProductsData/ProductsData';
 import Header from '../../Shared/Header/Header';
 import HomeSlider from '../HomeSlider/HomeSlider';
 import NewBanner from '../NewBanner/NewBanner';
@@ -9,6 +10,7 @@ const Home = () => {
         <>
             <Header/>
             <HomeSlider />
+            <ProductsData />
             <NewBanner />
             <OfferBanner />
         </>
